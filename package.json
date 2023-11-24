@@ -9,7 +9,7 @@
     "build": "vite build",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview",
-    "deploy": "gh-pages -t -b master -d build",
+    "deploy": "gh-pages -t -b master -d dist",
     "predeploy": "npm run build"
   },
   "dependencies": {
